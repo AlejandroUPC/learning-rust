@@ -6,8 +6,8 @@ The official introductory book for learning Rust, covering language fundamentals
 
 ## Chapter Index and Progress
 
-- [ ] [Chapter 1 — Getting Started](ch01-getting-started/README.md)
-- [ ] [Chapter 2 — Programming a Guessing Game](ch02-guessing-game/README.md)
+- [x] [Chapter 1 — Getting Started](ch01-getting-started/README.md)
+- [x] [Chapter 2 — Programming a Guessing Game](ch02-guessing-game/README.md)
 - [ ] [Chapter 3 — Common Programming Concepts](ch03-common-concepts/README.md)
 - [ ] [Chapter 4 — Understanding Ownership](ch04-understanding-ownership/README.md)
 - [ ] [Chapter 5 — Using Structs to Structure Related Data](ch05-using-structs/README.md)
