@@ -1,6 +1,6 @@
 # Learning Rust
 
-A personal repository for learning Rust from fundamentals through systems programming. It keeps resource progress, chapter notes, exercises, experiments, and independent projects organized in one place.
+A personal repository for learning Rust from fundamentals through systems programming. It keeps resource progress, chapter notes, exercises, and independent projects organized in one place.
 
 ## Learning Resources
 
@@ -13,9 +13,7 @@ For a repeatable session routine, see [PROGRESS.md](PROGRESS.md).
 
 ```text
 resources/      Learning resources and resource-specific progress
-experiments/    Independent technical investigations
 projects/       Larger self-contained applications
-notes/          Topics spanning multiple chapters or resources
 ```
 
 Each Book chapter has a directory with its own `README.md`; chapter code belongs in that directory.
@@ -40,9 +38,7 @@ cargo clippy
 
 - Track The Rust Book chapter progress in [`resources/the-rust-book/README.md`](resources/the-rust-book/README.md), and write notes in that chapter's README.
 - Put chapter-related exercises and separate Cargo projects inside the relevant chapter directory. Do not add a root Cargo workspace; projects remain independent.
-- Use [`experiments/`](experiments/README.md) for investigations unrelated to a particular chapter.
 - Use [`projects/`](projects/README.md) for larger applications.
-- Use [`notes/`](notes/README.md) for concepts that span resources or chapters.
 - Add a future learning resource as a new directory under `resources/` with a resource README, progress index, and resource-specific work.
 
 ## Overall Progress

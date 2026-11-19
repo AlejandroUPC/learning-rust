@@ -9,3 +9,14 @@
 *~
 .idea/
 .vscode/
+
+# Rustlings upstream content: keep only your progress and completed exercises.
+/resources/rustlings/*
+!/resources/rustlings/README.md
+!/resources/rustlings/.rustlings-state.txt
+!/resources/rustlings/exercises/
+/resources/rustlings/solutions/
+/resources/rustlings/exercises/*
+!/resources/rustlings/exercises/00_intro/
+!/resources/rustlings/exercises/00_intro/**
+# Add allow rules here for each topic as you complete it.
