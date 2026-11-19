@@ -10,13 +10,16 @@
 .idea/
 .vscode/
 
-# Rustlings upstream content: keep only your progress and completed exercises.
+# Rustlings upstream exercises are local; allow the answers and selected work.
 /resources/rustlings/*
 !/resources/rustlings/README.md
 !/resources/rustlings/.rustlings-state.txt
 !/resources/rustlings/exercises/
-/resources/rustlings/solutions/
 /resources/rustlings/exercises/*
 !/resources/rustlings/exercises/00_intro/
 !/resources/rustlings/exercises/00_intro/**
 # Add allow rules here for each topic as you complete it.
+
+# Include the full Rustlings reference solutions directory.
+!/resources/rustlings/solutions/
+!/resources/rustlings/solutions/**
