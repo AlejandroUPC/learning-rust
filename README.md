@@ -18,6 +18,8 @@ projects/       Larger self-contained applications
 
 Each Book chapter has a directory with its own `README.md`; chapter code belongs in that directory.
 
+Code snippets in Markdown notes may be partial or intentionally non-compilable; they are there to illustrate an idea and may need more context to compile. Runnable examples belong in a chapter's Cargo project.
+
 ## Getting Started
 
 Install Rust using [rustup](https://rustup.rs/). The repository's `rust-toolchain.toml` selects the stable toolchain. Confirm installation with `rustc --version` and `cargo --version`. Rustlings setup and resume instructions are in [`resources/rustlings/README.md`](resources/rustlings/README.md).
